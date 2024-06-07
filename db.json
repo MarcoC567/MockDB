@@ -1,0 +1,57 @@
+{
+  "mitarbeiter": [
+    {
+      "personalnummer": "PN001",
+      "vorname": "Anna",
+      "nachname": "Musterfrau",
+      "abteilungs_id": "A001"
+    },
+    {
+      "personalnummer": "PN002",
+      "vorname": "Max",
+      "nachname": "Mustermann",
+      "abteilungs_id": "A002"
+    }
+  ],
+  "abteilungen": [
+    {
+      "abteilungs_id": "A001",
+      "abteilungs_name": "Forschung",
+      "vorgesetzter_id": "V001"
+    },
+    {
+      "abteilungs_id": "A002",
+      "abteilungs_name": "Verwaltung",
+      "vorgesetzter_id": "V002"
+    }
+  ],
+  "vorgesetzte": [
+    {
+      "vorgesetzter_id": "V001",
+      "vorname": "Peter",
+      "nachname": "Leiter"
+    },
+    {
+      "vorgesetzter_id": "V002",
+      "vorname": "Lisa",
+      "nachname": "Managerin"
+    }
+  ],
+  "projekte": [
+    {
+      "projekt_id": "P001",
+      "projekt_name": "Projekt Alpha",
+      "projektleiter_id": "PL001"
+    }
+  ],
+  "dienstreiseantraege": [
+    {
+      "antrag_id": "DA001",
+      "personalnummer": "PN001",
+      "startdatum": "2024-06-10",
+      "endedatum": "2024-06-15",
+      "geplante_kosten": 500.00,
+      "kostenstelle": "KS001"
+    }
+  ]
+}
