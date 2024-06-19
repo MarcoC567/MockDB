@@ -1,57 +1,57 @@
 {
   "mitarbeiter": [
     {
-      "personalnummer": "PN001",
+      "personalnummer": "100",
       "vorname": "Anna",
       "nachname": "Musterfrau",
-      "abteilungs_id": "A001"
+      "abteilungs_id": "100",
     },
     {
-      "personalnummer": "PN002",
+      "personalnummer": "200",
       "vorname": "Max",
       "nachname": "Mustermann",
-      "abteilungs_id": "A002"
+      "abteilungs_id": "200"
     }
   ],
   "abteilungen": [
     {
-      "abteilungs_id": "A001",
+      "abteilungs_id": "100",
       "abteilungs_name": "Forschung",
       "vorgesetzter_id": "V001"
     },
     {
-      "abteilungs_id": "A002",
+      "abteilungs_id": "200",
       "abteilungs_name": "Verwaltung",
-      "vorgesetzter_id": "V002"
+      "vorgesetzter_id": "200"
     }
   ],
   "vorgesetzte": [
     {
-      "vorgesetzter_id": "V001",
+      "vorgesetzter_id": "100",
       "vorname": "Peter",
       "nachname": "Leiter"
     },
     {
-      "vorgesetzter_id": "V002",
+      "vorgesetzter_id": "200",
       "vorname": "Lisa",
       "nachname": "Managerin"
     }
   ],
   "projekte": [
     {
-      "projekt_id": "P001",
+      "projekt_id": "100",
       "projekt_name": "Projekt Alpha",
-      "projektleiter_id": "PL001"
+      "projektleiter_id": "100"
     }
   ],
   "dienstreiseantraege": [
     {
-      "antrag_id": "DA001",
-      "personalnummer": "PN001",
+      "antrag_id": "100",
+      "personalnummer": "100",
       "startdatum": "2024-06-10",
       "endedatum": "2024-06-15",
       "geplante_kosten": 500.00,
-      "kostenstelle": "KS001"
+      "kostenstelle": "100"
     }
   ]
 }
