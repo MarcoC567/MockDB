@@ -4,13 +4,15 @@
       "personalnummer": "100",
       "vorname": "Anna",
       "nachname": "Musterfrau",
-      "abteilungs_id": "100"
+      "abteilungs_id": "100",
+      "email": "tire1011@h-ka.de"
     },
     {
       "personalnummer": "200",
       "vorname": "Max",
       "nachname": "Mustermann",
-      "abteilungs_id": "200"
+      "abteilungs_id": "200",
+      "email":"semmel-rene@web.de"
     }
   ],
   "abteilungen": [
@@ -29,12 +31,14 @@
     {
       "vorgesetzter_id": "100",
       "vorname": "Peter",
-      "nachname": "Leiter"
+      "nachname": "Leiter",
+      "email": "cama1025@h-ka.de"
     },
     {
       "vorgesetzter_id": "200",
       "vorname": "Lisa",
-      "nachname": "Managerin"
+      "nachname": "Managerin",
+      "email": "jesv1012@h-ka.de"
     }
   ],
   "projekte": [
