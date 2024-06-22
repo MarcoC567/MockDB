@@ -17,7 +17,7 @@
     {
       "abteilungs_id": "100",
       "abteilungs_name": "Forschung",
-      "vorgesetzter_id": "V001"
+      "vorgesetzter_id": "100"
     },
     {
       "abteilungs_id": "200",
